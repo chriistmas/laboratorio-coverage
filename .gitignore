@@ -1,0 +1,12 @@
+# Compilados de Maven
+target/
+*.class
+
+# Archivos de configuración de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos del sistema y logs
+*.log
+.DS_Store
+
