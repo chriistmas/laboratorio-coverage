@@ -1,9 +1,10 @@
 package com.ccomp.app;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 class SorterTest {
     private Sorter sorter;
@@ -39,5 +40,13 @@ class SorterTest {
         sorter.bubbleSort(input);
         assertArrayEquals(expected, input);
     }
+    @Test
+    @DisplayName("CP5: Validar comportamiento con arreglo nulo (Null)")
+    void testArrayNull() {
+        int[] input = null;
+        // Ejecuta el método; gracias a la validación inicial no lanzará NullPointerException
+        sorter.bubbleSort(input); 
+    }
+
 }
 
