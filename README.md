@@ -1,4 +1,4 @@
-# Laboratorio 04: xUnit y Cobertura de Código
+<h1 align="center">Laboratorio 04: xUnit y Cobertura de Código</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-21-orange?logo=openjdk&logoColor=white" alt="Java 21">
