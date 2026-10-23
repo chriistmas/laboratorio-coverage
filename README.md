@@ -1,6 +1,11 @@
 # Laboratorio 04: xUnit y Cobertura de Código
 
-![Java](https://shields.io) ![JUnit 5](https://shields.io) ![JaCoCo](https://shields.io) ![Ubuntu](https://shields.io)
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-21-orange?logo=openjdk&logoColor=white" alt="Java 21">
+  <img src="https://img.shields.io/badge/JUnit-5-25A162?logo=junit5&logoColor=white" alt="JUnit 5">
+  <img src="https://img.shields.io/badge/JaCoCo-Coverage-red" alt="JaCoCo">
+  <img src="https://img.shields.io/badge/Ubuntu-OS-E95420?logo=ubuntu&logoColor=white" alt="Ubuntu">
+</p>
 
 ---
 
